@@ -2,9 +2,8 @@ body{
      background-color: #000;
 }
 .flip {
-         width:950px;
-          height:1600px;
-          
+         width:700px;
+          height:700px;    
 }
 .header-up {
          list-style: none;
@@ -34,11 +33,13 @@ body{
 
 
 
-@media screen and (min-width: 550px){
+@media screen and (width: 950px){
+      
       .flip {
-         width:700px;
-          height:700px;
+         width:950px;
+          height:1600px;
           
 }
     }
+
 
