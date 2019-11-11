@@ -1,6 +1,10 @@
 body{
      background-color: #000;
 }
+.flip{
+     width:700px;
+          height:700px;
+}
 .header-up {
          list-style: none;
          background-color: #000;
