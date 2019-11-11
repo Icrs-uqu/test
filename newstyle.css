@@ -37,7 +37,7 @@ body{
 }
     }
 
-@media screen and (min-width: 450px){
+@media screen and (min-width: 550px){
       .flip {
          width:700px;
           height:700px;
