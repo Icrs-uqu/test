@@ -3,7 +3,7 @@ body{
 }
 .flip{
      width:700px;
-          height:1500px;
+          height:700px;
 }
 .header-up {
          list-style: none;
@@ -29,19 +29,13 @@ body{
      background-color: #000;
   color: white;
 }
-@media screen and (max-width: 900px){
-      
-      .flip {
-         width:950px;
-          height:1600px;
-          
-}
-    }
 
-@media screen and (min-width: 550px){
+
+@media screen and (min-width: 950px){
       .flip {
-         width:700px;
-          height:700px;
+         
+           width:950px;
+          height:1600px;
           
 }
     }
