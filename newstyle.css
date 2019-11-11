@@ -1,6 +1,5 @@
-.flip {
-         width:950px;
-          height:1600px;    
+body{
+     background-color: #000;
 }
 .header-up {
          list-style: none;
@@ -11,7 +10,6 @@
     color:#FFFFFF;
     font-size: 26px;
 }
- 
 
 .button {
   background-color: #4CAF50; /* Green */
@@ -27,5 +25,3 @@
      background-color: #000;
   color: white;
 }
-
-
