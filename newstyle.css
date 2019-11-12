@@ -33,7 +33,7 @@ body{
 
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 500px){
       
       .flip {
          width:950px;
@@ -42,7 +42,7 @@ body{
 }
     }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 300px){
       
       .flip {
          width:950px;
