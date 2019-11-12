@@ -10,7 +10,11 @@ body{
     color:#FFFFFF;
     font-size: 26px;
 }
-
+ .flip {
+         width:950px;
+          height:1600px;
+          
+}
 
 .button {
   background-color: #4CAF50; /* Green */
