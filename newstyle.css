@@ -59,7 +59,7 @@ body{
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 980px){
       
       .iframe-container {
   
@@ -67,7 +67,7 @@ body{
 }
     }
 
-@media screen and (min-width: 750px){
+@media screen and (min-width: 981px){
       .iframe-container {
   
     height: 100%;
