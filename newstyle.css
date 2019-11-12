@@ -1,10 +1,7 @@
 body{
      background-color: #000;
 }
-.flip {
-         width:700px;
-          height:700px;    
-}
+
 .header-up {
          list-style: none;
          background-color: #000;
@@ -30,26 +27,37 @@ body{
   color: white;
 }
 
-
-
-
-@media screen and (max-width: 500px){
-      
-      .flip {
-         width:950px;
-          height:1600px;
-          
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
 }
-    }
-
-@media screen and (min-width: 300px){
-      
-      .flip {
-         width:950px;
-          height:1600px;
-          
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
-    }
+ 
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
+
+
+#footer {
+  background-color: #FFFFFF;
+  color: #555;
+  font-size: 8pt;
+  letter-spacing: 1px;
+  padding: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
 
 
