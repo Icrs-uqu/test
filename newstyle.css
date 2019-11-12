@@ -1,7 +1,6 @@
 body{
      background-color: #000;
 }
-
 .header-up {
          list-style: none;
          background-color: #000;
@@ -11,6 +10,7 @@ body{
     color:#FFFFFF;
     font-size: 26px;
 }
+
 
 .button {
   background-color: #4CAF50; /* Green */
@@ -27,37 +27,19 @@ body{
   color: white;
 }
 
-.iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
+@media screen and (max-width: 980px){
+      
+      .flip {
+         width:950px;
+          height:1600px;
+          
 }
- 
-.iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
+    }
+
+@media screen and (min-width: 981px){
+      .flip {
+         width:700px;
+          height:700px;
+          
 }
- 
-/* 4x3 Aspect Ratio */
-.iframe-container-4x3 {
-  padding-top: 75%;
-}
-
-
-#footer {
-  background-color: #FFFFFF;
-  color: #555;
-  font-size: 8pt;
-  letter-spacing: 1px;
-  padding: 25px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-
-
-
+    }
